@@ -7,7 +7,7 @@ import threading
 # version
 # =================================================================
 sys.path.append('./vilib')
-user_name = os.getlogin()
+user_name = "root"
 from version import __version__
 print("Start installing vilib %s for user %s"%(__version__ ,user_name))
 
